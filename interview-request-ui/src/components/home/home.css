@@ -1,0 +1,67 @@
+.body-content {
+  background-color: #eef3f6;
+  height: 100vh;
+}
+
+.candidate-table {
+  align-items: center;
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 3px 2px 2px 2px;
+}
+
+.table > thead {
+  vertical-align: revert !important;
+}
+
+.table > :not(:first-child) {
+  border-top: 0 !important;
+}
+
+.table tbody {
+  color: #606060;
+}
+
+.read-indicator {
+  background: #34b96f;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.communication > span {
+  display: inline-block;
+  margin-right: 9px;
+}
+
+.communication-date {
+  color: #a9a9a9;
+}
+
+.img-profile {
+  margin-right: 12px;
+}
+
+.interview-request-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #606060;
+  padding-bottom: 7px;
+}
+
+.sub-navigation {
+  height: 60px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.search-panel {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 75px;
+}
