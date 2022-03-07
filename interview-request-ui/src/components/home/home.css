@@ -1,6 +1,6 @@
 .body-content {
   background-color: #eef3f6;
-  height: 100vh;
+  height: 130vh;
 }
 
 .candidate-table {
@@ -53,15 +53,52 @@
   padding-bottom: 7px;
 }
 
+.search-panel {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 73px;
+}
+
+.show-archived {
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 76px;
+}
+
 .sub-navigation {
   height: 60px;
   background-color: #ffffff;
   margin-bottom: 15px;
 }
 
-.search-panel {
-  display: flex;
-  align-items: flex-start;
-  position: absolute;
-  top: 75px;
+.txtSearch {
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  border-right: none;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  height: 35px;
+  width: 180px;
+}
+
+.btnSearch {
+  background-color: white;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  border-left: none;
+  height: 35px;
+  margin-left: -7px;
+  color: #a6acaf;
+}
+
+.archive-link {
+  text-decoration: none;
 }
